@@ -6,7 +6,7 @@
 void Main()
 {
     int numArrayElem = InputCountElem("Enter the number of array elements: ");
-    int [] myArray = FillArray(numArrayElem);
+    int[] myArray = FillArray(numArrayElem);
     int countElem = NumsGreaterThenZero(myArray);
     PrintArray(myArray);
     Console.WriteLine($" -> {countElem}");
